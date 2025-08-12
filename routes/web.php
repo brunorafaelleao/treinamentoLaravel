@@ -6,7 +6,7 @@ use Illuminate\View\View;
 
 // rota para a página principal
 Route::get('/', function () {
-    return view('principal');
+    return view('welcome');
 });
 
 //rota de teste para contatos

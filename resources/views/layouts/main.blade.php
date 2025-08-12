@@ -15,19 +15,43 @@
     rel="stylesheet">
 
   {{-- bootstrap --}}
-  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
   {{-- CSS da aplicação --}}
   <link rel="stylesheet" href="/css/styles.css">
 
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="collapse navbar-collapse" id="navbar">
+        <a href="/" class="navbar-brand">
+          <img src="images/hdcevents_logo.svg" alt="HDC Events">
+        </a>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="/" class="nav-link">Eventos</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Criar eventos</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Entrar</a>
+          </li>
+          <li class="nav-item">
+            <a href="/" class="nav-link">Cadastrar</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
   {{-- Essa direteva serve para inserir o conteúdo da página --}}
   @yield('content')
 
   <footer>
     <p>Nosso rodapé &copy; 2025</p>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
