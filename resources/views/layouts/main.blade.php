@@ -49,7 +49,7 @@
   @yield('content')
 
   <footer>
-    <p>Nosso rodapé &copy; 2025</p>
+    <p>HDC Events &copy; 2025</p>
   </footer>
   {{-- bootstrap --}}
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
