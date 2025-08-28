@@ -23,12 +23,6 @@ Route::get('/contatos', function () {
     return view('contatos');
 });
 
-// rota para a página de saúde da criança
-Route::get('/crianca', function (): View {
-    return view('criancas');
-});
 
-//rota para a página de saude do adolescente
-Route::get('/adolescente', function (): View {
-    return view('adolescentes');
-});
+//Rota para postar um evento
+Route::post('/events', [EventController::class, 'store']);
